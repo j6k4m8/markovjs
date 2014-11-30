@@ -6,9 +6,31 @@
         box-sizing: border-box;
     }
 
+    .new {
+        width: 10em;
+        margin: auto;
+        background: white;
+        color: aqua;
+        text-align: center;
+        padding: 0.5em;
+        text-transform: uppercase;
+        font-family: sans-serif;
+        font-weight: 800;
+        cursor: pointer;
+        border: 3px solid aqua;
+
+        transition: all 0.25s;
+    }
+
+    .new:hover {
+        color: white;
+        box-shadow: 0 0 40px cadetblue;
+        background: aqua;
+    }
+
     .chain {
         font-family: 'Bitstream Charter', 'Roboto Slab', Georgia, serif;
-        font-size: 60px;
+        font-size: 42px;
         padding: 1em;
         margin: 1em;
         border-top: 15px solid #dedede;
@@ -187,6 +209,7 @@
 
     </script>
 
+    <div class="new" onclick="makeSentence()">Do Words</div>
     <div class="container"></div>
 </body>
 </html>
