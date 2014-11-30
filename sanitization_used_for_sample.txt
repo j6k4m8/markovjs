@@ -1,0 +1,8 @@
+Sanitizing:
+
+- "How to Make a Tutorial" from the OpenCV documentation
+- Each line was wrapped in quotes
+- Remove all lines matching any of:
+    ^"\S*",
+    ^\s+".*",
+- (Some) punctuation is stripped and replaced with a line feed
