@@ -35,4 +35,4 @@ and so on.
 
 It's horribly inefficient, but... So sue me.
 
--jm
+More information [here](http://blog.jordan.matelsky.com/markov/).
